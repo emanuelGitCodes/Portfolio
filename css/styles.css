@@ -1,18 +1,8 @@
 
-body {
-  background-color: teal;
-  text-align: center;
-}
-
-/* Title */
-#title {
-  background-color: teal;
-}
-
 /* Nav Bar */
 .navbar { margin-bottom: 5%; }
 
-#name {
+#title{
 font-weight: bold;
 font-size: xx-large;
 line-height: 1.5;
