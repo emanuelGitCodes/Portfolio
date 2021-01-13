@@ -1,0 +1,34 @@
+
+{
+  "goals": [
+      {"goal": "Front End Developer"},
+      {"goal": "Back End Developer"},
+      {"goal": "Embedded System"}
+  ],
+  
+  "skills" : [
+    { 
+      "skill_name": "HTML & CSS",
+      "skill_body": "My knowledge of HTML & CSS comes from a combination of lectures and projects. I started with the need to complete a project and from there moved to another thing. Over time I've been researching and learning more things."
+    },
+
+    {
+      "skill_name": "JavaScript",
+      "skill_body": "JavaScript is one of the most recent skills that I've picked up along the way. I started learning about it by signing up for online courses. I hope that soon I can fully grasp this language's power and apply it to as many projects as possible."
+    }
+  ],
+
+  "projects": [
+    {
+      "project_img": "images/jackbox-logo.jpg",
+      "project_name": "UCFBox",
+      "project_body": "Mobile device game similar to the JackBox experience. The app provides the option to join or create a game room. Joining a room is done by entering a token provided by the host. Inserting the token places the User in a game picked out by the host. Creating a game room allows the host to choose from one of three games. Once the game is chosen, a random token is generated so that the host can distribute it. The project was develop using Flutter with Dart and is usable on both iOS and Android."
+    },
+
+    {
+      "project_img": "images/temp_flash.jpg",
+      "project_name": "FlashCards",
+      "project_body": "The project focused on creating a simple chat system similar to a messaging app like WhatsApp. The mobile application requires the sign-in of a valid email account to be able to proceed. Chatting with another user is possible by giving them an email to enter the chat room belonging to that email. The project was develop using Flutter with Dart and is usable on both iOS and Android."
+    }
+  ]
+}

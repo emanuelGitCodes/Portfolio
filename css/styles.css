@@ -1,0 +1,33 @@
+
+body {
+  background-color: teal;
+  text-align: center;
+}
+
+/* Title */
+#title {
+  background-color: teal;
+}
+
+/* Nav Bar */
+.navbar { margin-bottom: 5%; }
+
+#name {
+font-weight: bold;
+font-size: xx-large;
+line-height: 1.5;
+text-align: left;
+width: 75%;
+margin-left: 5%;
+}
+
+/* Projects */
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.card-text-body {
+  display: none;
+}
