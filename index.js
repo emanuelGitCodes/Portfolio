@@ -84,3 +84,13 @@ for (var i = 0; i < comments.length; i++) {
 
 */
 
+/*
+// Toggles the cards, but it does it for all at the sam time.
+$('.card').on('click', function () {
+  $('.card_lower_body').slideToggle();
+})
+*/
+
+$('.card').on('click', function () {
+  $('.card_lower_body').slideToggle();
+})

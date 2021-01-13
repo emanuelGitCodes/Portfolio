@@ -18,6 +18,7 @@ margin-left: 5%;
   margin-bottom: 10px;
 }
 
-.card-text-body {
+.card_lower_body {
   display: none;
 }
+
