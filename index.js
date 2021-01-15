@@ -85,12 +85,13 @@ for (var i = 0; i < comments.length; i++) {
 */
 
 /*
-// Toggles the cards, but it does it for all at the sam time.
+// On click card it will toggle between showing or hidding the div containing
+// the class='card_lower_body'.
 $('.card').on('click', function () {
-  $('.card_lower_body').slideToggle();
+  $(this.getElementsByClassName('card_lower_body')[0]).slideToggle();
 })
 */
 
 $('.card').on('click', function () {
-  $('.card_lower_body').slideToggle();
+  $(this.getElementsByClassName('card_lower_body')[0]).slideToggle();
 })
