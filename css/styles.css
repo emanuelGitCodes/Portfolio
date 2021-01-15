@@ -1,33 +1,31 @@
-
+body {
+  background-color: teal;
+}
 /* Nav Bar */
 .navbar { margin-bottom: 5%; }
 
+
+.site_stile {
+  background-color: teal;
+  color: white;
+}
 /* Introduction */
 #intro{
-text-align: left;
-margin-left: 5%;
-padding-top: 4.5rem;
+  padding-top: 4.5rem;
 }
 
 .intro_head {
   font-weight: 700;
   font-size: 48px;
   line-height: 1.2;
-  width: 80%;
 }
 
 .intro_body {
   font-size: 16px;
   line-height: 1.7;
-  width: 95%;
 }
 
 /* Goals */
-#goals{
-  text-align: left;
-  margin-left: 5%;
-}
-
 .goal_layout {
   margin-left: 2.5%;
 }
@@ -40,27 +38,22 @@ padding-top: 4.5rem;
 .card {
   margin: 0 auto;
   float: none;
-  margin-bottom: 15px;
+  margin: auto auto 15px 15px;
+  color: black;
 }
 
 .card_lower_body {
   display: none;
 }
 
+
+
 /* Skills */
 #skills{
-  text-align: left;
-  margin-left: 5%;
+  padding-top: 4rem;
 }
 
 /* Projects */
-#projects{
-  text-align: left;
-  margin-left: 5%;
-}
+
 
 /* Footer */
-#footer{
-  text-align: left;
-  margin-left: 5%;
-}
