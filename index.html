@@ -16,7 +16,7 @@
  
     <title>Emanuel's Portfolio</title>
   </head>
-  <body>
+  <body class="overflow-auto">
     <!-- Nav Bar -->
     <section id="navbar_contnet">
 
@@ -29,16 +29,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#goals">Goals</a>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#skills">Skills</a>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
               </li>
             </ul>
           </div>
@@ -47,104 +50,122 @@
 
     </section>
 
-    <!-- Goals -->
-    <section id="goals">
-      <div class="container-fluid">
-        <h1 class="goals">Goals:</h1>
-        <h3 class="goal"></h3>
-        <h3 class="goal"></h3>
-        <h3 class="goal"></h3>
-      </div>
-    </section>
-    <br>
-
-    <!-- Skills -->
-    <section id="skills">
-      <div class="container-fluid">
-        <h2 class="text-left">Skills</h2>
-        <div class="card-deck item-center">
-
-          <!-- item 1 -->
-          <div class="col-lg-6">
-            <div class="card" style="width: 18rem;">
-              <img src="" class="card-img-top skill_img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center skill_name"></h5>
-                <div class="card_lower_body">
-                  <p class="card-text skill_body"></p>
-                </div>
-              </div>
-            </div>
+    <div class="col">
+      <!-- Introduction -->
+      <section class="body_layout" id="intro">
+        <div class="container-fluid">
+          <div class="col">
+            <p class="intro_head row-6">Hello,<br>I'm Emanuel a Developer</p><br>
+            <p class="intro_body row-6">Currently, I'm a developer working for the Techrangers. My work focuses on front end design and development. As you keep going through the site, you will see some of my skills, projects and goals.</p>
           </div>
-
-          <!-- item 2 -->
-          <div class="col-lg-6">
-            <div class="card" style="width: 18rem;">
-              <img src="" class="card-img-top skill_img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center skill_name"></h5>
-                <div class="card_lower_body">
-                  <p class="card-text skill_body"></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
-      </div>
-    </section>
-    <br>
+      </section>
+      <br>
 
-    <!-- Projects -->
-    <section id="projects">
-      <div class="container-fluid">
-        <h2 class="text-left">Projects</h2>
-        <div class="card-deck item-center">
-
-          <!-- item 1 -->
-          <div class="col-lg-6">
-            <div class="card" style="width: 18rem;">
-              <img src="" class="card-img-top project_img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center project_name"></h5>
-                <div class="card_lower_body">
-                  <p class="card-text project_body"></p>
-                  <span class="card_btn float-right">
-                    <a href="#" class="btn btn-secondary float-right">GitHub</a>
-                  </span>
-                </div>
-              </div>
+      <!-- Goals -->
+      <section class="body_layout" id="goals">
+        <div class="container-fluid">
+          <div class="row">
+            <h1 class="goals">Goals:</h1><br>
+            <div class="goal_layout">
+              <h3 class="goal"></h3>
+              <h3 class="goal"></h3>
+              <h3 class="goal"></h3>
             </div>
           </div>
-
-          <!-- item 2 -->
-          <div class="col-lg-6">
-            <div class="card" style="width: 18rem;">
-              <img src="" class="card-img-top project_img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center project_name"></h5>
-                <div class="card_lower_body">
-                  <p class="card-text project_body"></p>
-                  <span class="card_btn float-right">
-                    <a href="#" class="btn btn-secondary float-right">GitHub</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
-      </div>
-    </section>
-    <br>
+      </section>
+      <br>
 
-    <!-- Footer -->
-    <footer class="" id="footer">
-      <div class="container-fluid text-center">
-        <i class="social-icon fab fa-linkedin"></i>
-      </div>
-    </footer>
+      <!-- Skills -->
+      <section id="skills">
+        <div class="container-fluid">
+          <h2 class="text-left">Skills</h2><br>
+          <div class="card-deck item-center">
 
+            <!-- item 1 -->
+            <div class="col-lg-6">
+              <div class="card shadow" style="width: 18rem;">
+                <img src="" class="card-img-top skill_img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center skill_name"></h5>
+                  <div class="card_lower_body">
+                    <p class="card-text skill_body"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="col-lg-6">
+              <div class="card shadow" style="width: 18rem;">
+                <img src="" class="card-img-top skill_img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center skill_name"></h5>
+                  <div class="card_lower_body">
+                    <p class="card-text skill_body"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <br>
+
+      <!-- Projects -->
+      <section id="projects">
+        <div class="container-fluid">
+          <div class="col">
+            <h2 class="text-left projects_title">Projects:</h2><br>
+            <div class="card-deck item-center">
+
+              <!-- item 1 -->
+              <div class="col-lg-6">
+                <div class="card shadow" style="width: 18rem;">
+                  <img src="" class="card-img-top project_img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center project_name"></h5>
+                    <div class="card_lower_body">
+                      <p class="card-text project_body"></p>
+                      <span class="card_btn float-right">
+                        <a href="#" class="btn btn-secondary float-right">GitHub</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- item 2 -->
+              <div class="col-lg-6">
+                <div class="card shadow" style="width: 18rem;">
+                  <img src="" class="card-img-top project_img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center project_name"></h5>
+                    <div class="card_lower_body">
+                      <p class="card-text project_body"></p>
+                      <span class="card_btn float-right">
+                        <a href="#" class="btn btn-secondary float-right">GitHub</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+
+      <!-- Footer -->
+      <footer class="" id="footer">
+        <div class="container-fluid text-center">
+          <i class="social-icon fab fa-linkedin"></i>
+        </div>
+      </footer>
+    </div>
 
     <!-- JQuerry -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
