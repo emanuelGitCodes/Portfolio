@@ -1,14 +1,24 @@
+
+* {
+  border: 1px solid red
+}
+
 body {
   background-color: teal;
 }
+
+.container-fluid {
+  padding: 7%, 15%;
+}
+
 /* Nav Bar */
 .navbar { margin-bottom: 5%; }
-
 
 .site_stile {
   background-color: teal;
   color: white;
 }
+
 /* Introduction */
 #intro{
   padding-top: 4.5rem;
@@ -34,26 +44,24 @@ body {
   padding-left: 2%;
 }
 
-/* CARDS */
+/* Footer */
+
+.icon-style {
+size: 500px;
+}
+
+
+/* Cards */
 .card {
-  margin: 0 auto;
-  float: none;
-  margin: auto auto 15px 15px;
-  color: black;
+  margin: auto;
+  color: grey;
 }
 
 .card_lower_body {
   display: none;
 }
 
-
-
 /* Skills */
 #skills{
   padding-top: 4rem;
 }
-
-/* Projects */
-
-
-/* Footer */
