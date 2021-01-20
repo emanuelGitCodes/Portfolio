@@ -1,67 +1,88 @@
 
-* {
+/* * {
   border: 1px solid red
-}
+} */
 
 body {
-  background-color: teal;
+  background-color: #222831;
 }
-
-.container-fluid {
-  padding: 7%, 15%;
-}
-
-/* Nav Bar */
-.navbar { margin-bottom: 5%; }
 
 .site_stile {
-  background-color: teal;
-  color: white;
+  background-color: #222831;
+  color: #eeeeee;
 }
 
+/* ///////////////////////////////// */
 /* Introduction */
 #intro{
-  padding-top: 4.5rem;
+  padding-top: 2%;
 }
 
-.intro_head {
-  font-weight: 700;
+.intro-head {
+  font-weight: 400;
   font-size: 48px;
   line-height: 1.2;
+  font-family: 'Permanent Marker', cursive;
+  color: #00adb5;
 }
 
-.intro_body {
-  font-size: 16px;
-  line-height: 1.7;
+.intro-body {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #eeeeee;
+  font-weight: 600;
+  padding-left: 5%;
 }
 
+/* /////////////////////////////////// */
 /* Goals */
+.goals {
+  font-family: 'Permanent Marker', cursive;
+  color: #00adb5;  
+}
+
 .goal_layout {
-  margin-left: 2.5%;
+  padding-left: 10%;
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.goal{
-  padding-left: 2%;
-}
-
+/* //////////////////////////////////////// */
 /* Footer */
-
 .icon-style {
-size: 500px;
+  size: 50px;
 }
 
+a:active .url-links {
+  color: #eeeeee;
+}
 
+/* /////////////////////////////////////// */
 /* Cards */
-.card {
-  margin: auto;
-  color: grey;
+.card-stile {
+  color: #eeeeee!important;
+  background-color: #495464!important; 
 }
 
 .card_lower_body {
   display: none;
 }
 
+/* //////////////////////////////////////// */
 /* Skills */
 #skills{
-  padding-top: 4rem;
+  padding-top: 2%;
+}
+
+.skills-head {
+  font-family: 'Permanent Marker', cursive;
+  color: #00adb5;  
+}
+
+/* //////////////////////////////////////// */
+/* Projects */
+.project-head {
+  font-family: 'Permanent Marker', cursive;
+  color: #00adb5;  
 }

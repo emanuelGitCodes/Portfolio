@@ -14,6 +14,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
  
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+
     <title>Emanuel's Portfolio</title>
   </head>
   <body class="overflow-auto text-left">
@@ -21,7 +25,7 @@
     <!-- Nav Bar -->
     <section id="navbar_contnet">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light site_stile">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Emanuel's Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +46,7 @@
                 </li>
                 
                 <li class="nav-item">
-                  <a class="nav-link" href="#footer">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -53,14 +57,14 @@
 
     <div class="row site_stile">
       <!-- colum 1 on desktop -->
-      <div class="col-lg-6 col-md-12 container">
+      <div class="col-lg-6 col-md-12">
 
         <!-- Introduction -->
-        <section class="body_layout" id="intro">
+        <section class="body-layout" id="intro">
           <div class="container-fluid">
-            <div class="col intro_container">
-              <p class="intro_head row-6">Hello,<br>I'm Emanuel a Developer</p><br>
-              <p class="intro_body row-6">Currently, I'm a developer working for the Techrangers. My work focuses on front end design and development. As you keep going through the site, you will see some of my skills, projects and goals.</p>
+            <div class="col">
+              <p class="intro-head row-6 intro-head">Hello,<br>I'm Emanuel a Developer</p>
+              <p class="intro-body row-6">Currently, I'm a developer working for the Techrangers. My work focuses on front end design and development. As you keep going through the site, you will see some of my skills, projects and goals.</p>
             </div>
           </div>
         </section>
@@ -69,22 +73,31 @@
         <!-- Goals -->
         <section class="body_layout" id="goals">
           <div class="container-fluid">
-            <h1 class="goals">Goals:</h1>
-              <div class="row goal_layout">
-                <h3 class="goal col-lg-4"></h3>
-                <h3 class="goal col-lg-4"></h3>
-                <h3 class="goal col-lg-4"></h3>
+            <h1 class="goals">Goals :</h1>
+              <div class="goal_layout">
+                <ol>
+                  <li class="goal col-lg-4"></li>
+                  <li class="goal col-lg-4"></li>
+                  <li class="goal col-lg-4"></li>
+                </ol>
               </div>
             </div>
         </section>
         <br>
 
-        <!-- Footer -->
-        <footer class="" id="footer">
-          <div class="container-fluid text-center p">
-            <i class="social-icon fab fa-linkedin icon-style"></i>
+        <!-- Contact -->
+        <section id="contact">
+          <div class="container-fluid text-center">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4  col-4 offset-lg-1 offset-lg-1 offset-md-1 offset-sm-1 offset-1">
+                <i class="social-icon fab fa-linkedin icon-style" ></i>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4  col-4 offset-lg-1 offset-lg-1 offset-md-1 offset-sm-1 offset-1">
+                <a href="https://techrangers.cdl.ucf.edu/" style="color: #eeeeee;">TechRangers</a>
+              </div>
+            </div>
           </div>
-        </footer>
+        </section>
       </div>
 
       <!-- colum 2 on desktop -->
@@ -93,12 +106,12 @@
         <!-- Skills -->
         <section id="skills">
           <div class="container-fluid ">
-            <h2 class="text-left">Skills:</h2><br>
+            <h1 class="text-left skills-head">Skills :</h1><br>
             <div class="card-deck item-center row">
 
               <!-- item 1 -->
               <div class="col-lg-6 col-sm-6 mb-4">
-                <div class="card shadow">
+                <div class="card card-stile shadow">
                   <img src="" class="card-img-top skill_img" alt="...">
                   <div class="card-body">
                     <h5 class="card-title text-center skill_name"></h5>
@@ -111,7 +124,7 @@
 
               <!-- item 2 -->
               <div class="col-lg-6 col-sm-6 mb-4">
-                <div class="card shadow">
+                <div class="card card-stile shadow">
                   <img src="" class="card-img-top skill_img" alt="...">
                   <div class="card-body">
                     <h5 class="card-title text-center skill_name"></h5>
@@ -130,12 +143,12 @@
         <!-- Projects -->
         <section id="projects">
           <div class="container-fluid">
-            <h2 class="text-left">Projects:</h2><br>
+            <h2 class="text-left project-head">Projects :</h2><br>
             <div class="card-deck item-cente row">
 
               <!-- item 1 -->
               <div class="col-lg-6 col-sm-6 mb-4">
-                <div class="card shadow">
+                <div class="card card-stile shadow">
                   <img src="" class="card-img-top project_img" alt="...">
                   <div class="card-body">
                     <h5 class="card-title text-center project_name"></h5>
@@ -151,7 +164,7 @@
 
               <!-- item 2 -->
               <div class="col-lg-6 col-sm-6 mb-4">
-                <div class="card shadow">
+                <div class="card card-stile shadow">
                   <img src="" class="card-img-top project_img" alt="...">
                   <div class="card-body">
                     <h5 class="card-title text-center project_name"></h5>
@@ -167,6 +180,7 @@
 
 <!-- REMEMBER TO DELETE /////////////////////////////////////////// -->
 
+ 
 <!-- /////////////////////////////////////////// -->
             </div>
           </div>
