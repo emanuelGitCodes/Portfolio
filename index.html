@@ -23,57 +23,51 @@
   <body class="overflow-auto text-left">
 
     <!-- Nav Bar -->
-    <section id="navbar_contnet">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light site_stile">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Emanuel's Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="#goals">Goals</a>
-                </li>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Emanuel's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#goals">Goals</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
-    </section>
+        </div>
+      </nav>
+    </div>
 
     <div class="row site_stile">
-      <!-- colum 1 on desktop -->
+
+      <!-- COL 1 on desktop -->
       <div class="col-lg-6 col-md-12">
 
         <!-- Introduction -->
-        <section class="body-layout" id="intro">
-          <div class="container-fluid">
-            <div class="col">
-              <p class="intro-head row-6 intro-head">Hello,<br>I'm Emanuel a Developer</p>
-              <p class="intro-body row-6">Currently, I'm a developer working for the Techrangers. My work focuses on front end design and development. As you keep going through the site, you will see some of my skills, projects and goals.</p>
-            </div>
-          </div>
-        </section>
-        <br>
+        <div class="container-fluid">
+          <p class="intro-head">Hello,<br>I'm Emanuel a Developer</p>
+          <p class="intro-body">Currently, I'm a developer working for the Techrangers. My work focuses on front end design and development. As you keep going through the site, you will see some of my skills, projects and goals.</p>
+        </div>
 
         <!-- Goals -->
         <section class="body_layout" id="goals">
           <div class="container-fluid">
-            <h1 class="goals">Goals :</h1>
+            <h1 class="title-heads">Goals :</h1>
               <div class="goal_layout">
                 <ol>
                   <li class="goal col-lg-4"></li>
@@ -83,36 +77,36 @@
               </div>
             </div>
         </section>
-        <br>
 
         <!-- Contact -->
         <section id="contact">
-          <div class="container-fluid text-center">
+          <div class="container-fluid">
+            <h1 class="title-heads">Contact :</h1>
             <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-4  col-4 offset-lg-1 offset-lg-1 offset-md-1 offset-sm-1 offset-1">
+              <div class="col-lg-3 col-md-3 col-sm-3  col-3 offset-lg-2 offset-lg-2 offset-md-2 offset-sm-2 offset-2">
                 <i class="social-icon fab fa-linkedin icon-style" ></i>
               </div>
-              <div class="col-lg-4 col-md-4 col-sm-4  col-4 offset-lg-1 offset-lg-1 offset-md-1 offset-sm-1 offset-1">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-4 offset-lg-1 offset-lg-1 offset-md-1 offset-sm-1 offset-1">
                 <a href="https://techrangers.cdl.ucf.edu/" style="color: #eeeeee;">TechRangers</a>
               </div>
             </div>
           </div>
         </section>
+        <br>
       </div>
 
-      <!-- colum 2 on desktop -->
+      <!-- COL 2 on desktop -->
       <div class="container col-lg-6 col-sm-12">
-        
+
         <!-- Skills -->
         <section id="skills">
           <div class="container-fluid ">
-            <h1 class="text-left skills-head">Skills :</h1><br>
+            <h1 class="text-left title-heads">Skills :</h1><br>
             <div class="card-deck item-center row">
 
               <!-- item 1 -->
               <div class="col-lg-6 col-sm-6 mb-4">
                 <div class="card card-stile shadow">
-                  <img src="" class="card-img-top skill_img" alt="...">
                   <div class="card-body">
                     <h5 class="card-title text-center skill_name"></h5>
                     <div class="card_lower_body">
@@ -125,7 +119,6 @@
               <!-- item 2 -->
               <div class="col-lg-6 col-sm-6 mb-4">
                 <div class="card card-stile shadow">
-                  <img src="" class="card-img-top skill_img" alt="...">
                   <div class="card-body">
                     <h5 class="card-title text-center skill_name"></h5>
                     <div class="card_lower_body">
@@ -138,24 +131,23 @@
             </div>
           </div>
         </section>
-        <br>
 
         <!-- Projects -->
         <section id="projects">
           <div class="container-fluid">
-            <h2 class="text-left project-head">Projects :</h2><br>
+            <h2 class="text-left title-heads">Projects :</h2><br>
             <div class="card-deck item-cente row">
 
               <!-- item 1 -->
               <div class="col-lg-6 col-sm-6 mb-4">
                 <div class="card card-stile shadow">
-                  <img src="" class="card-img-top project_img" alt="...">
+                  <img src="" class="card-img-top project_img" alt="">
                   <div class="card-body">
                     <h5 class="card-title text-center project_name"></h5>
                     <div class="card_lower_body">
                       <p class="card-text project_body"></p>
                       <span class="card_btn float-right">
-                        <a href="#" class="btn btn-secondary float-right">GitHub</a>
+                        <a href="" class="btn btn-secondary float-right project_url">GitHub</a>
                       </span>
                     </div>
                   </div>
@@ -165,23 +157,18 @@
               <!-- item 2 -->
               <div class="col-lg-6 col-sm-6 mb-4">
                 <div class="card card-stile shadow">
-                  <img src="" class="card-img-top project_img" alt="...">
+                  <img src="" class="card-img-top project_img" alt="">
                   <div class="card-body">
                     <h5 class="card-title text-center project_name"></h5>
                     <div class="card_lower_body">
                       <p class="card-text project_body"></p>
                       <span class="card_btn float-right">
-                        <a href="#" class="btn btn-secondary float-right">GitHub</a>
+                        <a href="" class="btn btn-secondary float-right project_url">GitHub</a>
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
-
-<!-- REMEMBER TO DELETE /////////////////////////////////////////// -->
-
- 
-<!-- /////////////////////////////////////////// -->
             </div>
           </div>
         </section>

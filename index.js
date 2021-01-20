@@ -1,5 +1,4 @@
 
-
 // How to read a JSON, iterate over it and print in the correct HTML location.
 fetch('data.json').then(response => response.json()).then(data => {
 
@@ -29,13 +28,15 @@ fetch('data.json').then(response => response.json()).then(data => {
   var project_list = document.getElementsByClassName('project_name');
   var project_body_list = document.getElementsByClassName('project_body');
   var project_img_list = document.getElementsByClassName('project_img');
+  var project_url_list = document.getElementsByClassName('project_url');
 
   for (let index = 0; index < number_projects; index++) {
     project_list[index].innerHTML = data.projects[index].project_name;
     project_body_list[index].innerHTML = data.projects[index].project_body;
-    project_img_list[index].setAttribute('src', data.projects[index].project_img)
+    project_img_list[index].setAttribute('src', data.projects[index].project_img);
+    project_img_list[index].setAttribute('alt', data.projects[index].project_img_alt);
+    project_url_list[index].setAttribute('href', data.projects[index].project_url);
   }
-
 
 });
 

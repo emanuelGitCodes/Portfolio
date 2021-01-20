@@ -3,21 +3,27 @@
   border: 1px solid red
 } */
 
-body {
-  background-color: #222831;
-}
-
 .site_stile {
   background-color: #222831;
   color: #eeeeee;
+  margin: auto!important;
+  padding-top: 70px;
+}
+
+.title-heads {
+  font-family: 'Permanent Marker', cursive;
+  color: #00adb5;
+}
+
+/* ////////////////////////// */
+/* NavBar */
+.navbar-apperance {
+  color: #00adb5!important;
+  background-color: #222831!important;
 }
 
 /* ///////////////////////////////// */
 /* Introduction */
-#intro{
-  padding-top: 2%;
-}
-
 .intro-head {
   font-weight: 400;
   font-size: 48px;
@@ -36,13 +42,8 @@ body {
 
 /* /////////////////////////////////// */
 /* Goals */
-.goals {
-  font-family: 'Permanent Marker', cursive;
-  color: #00adb5;  
-}
-
 .goal_layout {
-  padding-left: 10%;
+  padding-left: 7.5%;
   color: #eeeeee;
   font-size: 18px;
   font-weight: 600;
@@ -62,27 +63,9 @@ a:active .url-links {
 /* Cards */
 .card-stile {
   color: #eeeeee!important;
-  background-color: #495464!important; 
+  background-color: #495464!important;
 }
 
 .card_lower_body {
   display: none;
-}
-
-/* //////////////////////////////////////// */
-/* Skills */
-#skills{
-  padding-top: 2%;
-}
-
-.skills-head {
-  font-family: 'Permanent Marker', cursive;
-  color: #00adb5;  
-}
-
-/* //////////////////////////////////////// */
-/* Projects */
-.project-head {
-  font-family: 'Permanent Marker', cursive;
-  color: #00adb5;  
 }

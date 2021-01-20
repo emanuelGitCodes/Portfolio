@@ -1,9 +1,9 @@
 
 {
   "goals": [
-      {"goal": "Front End Developer"},
-      {"goal": "Back End Developer"},
-      {"goal": "Embedded System"}
+    {"goal": "Front End Developer"},
+    {"goal": "Back End Developer"},
+    {"goal": "Embedded System"}
   ],
   
   "skills" : [
@@ -21,14 +21,18 @@
   "projects": [
     {
       "project_img": "images/jackbox-logo.jpg",
+      "project_img_alt": "Image that represents the project",
       "project_name": "UCFBox",
-      "project_body": "Mobile device game similar to the JackBox experience. The app provides the option to join or create a game room. Joining a room is done by entering a token provided by the host. Inserting the token places the User in a game picked out by the host. Creating a game room allows the host to choose from one of three games. Once the game is chosen, a random token is generated so that the host can distribute it. The project was develop using Flutter with Dart and is usable on both iOS and Android."
+      "project_body": "Mobile device game similar to the JackBox experience. The app provides the option to join or create a game room. Joining a room is done by entering a token provided by the host. Inserting the token places the User in a game picked out by the host. Creating a game room allows the host to choose from one of three games. Once the game is chosen, a random token is generated so that the host can distribute it. The project was develop using Flutter with Dart and is usable on both iOS and Android.",
+      "project_url": "https://github.com/emsonn/ucfbox"
     },
 
     {
       "project_img": "images/temp_flash.jpg",
+      "project_img_alt": "Image that represents the project",
       "project_name": "FlashCards",
-      "project_body": "The project focused on creating a simple chat system similar to a messaging app like WhatsApp. The mobile application requires the sign-in of a valid email account to be able to proceed. Chatting with another user is possible by giving them an email to enter the chat room belonging to that email. The project was develop using Flutter with Dart and is usable on both iOS and Android."
+      "project_body": "The project focused on creating a simple chat system similar to a messaging app like WhatsApp. The mobile application requires the sign-in of a valid email account to be able to proceed. Chatting with another user is possible by giving them an email to enter the chat room belonging to that email. The project was develop using Flutter with Dart and is usable on both iOS and Android.",
+      "project_url": "https://github.com/ECLKnight/flashCard"
     }
   ]
 }
