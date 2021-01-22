@@ -3,11 +3,21 @@
   border: 1px solid red
 } */
 
-.site_stile {
+.body_style {
   background-color: #222831;
+  padding-bottom: end;
+}
+
+.site_stile {
   color: #eeeeee;
   margin: auto!important;
   padding-top: 70px;
+}
+
+span {
+  display: inline-block;
+  /* padding: 25px; */
+  margin-left: 5%;
 }
 
 .title-heads {
@@ -35,7 +45,6 @@
 .intro-body {
   font-size: 18px;
   line-height: 1.5;
-  color: #eeeeee;
   font-weight: 600;
   padding-left: 5%;
 }
@@ -44,19 +53,22 @@
 /* Goals */
 .goal_layout {
   padding-left: 7.5%;
-  color: #eeeeee;
   font-size: 18px;
   font-weight: 600;
 }
 
 /* //////////////////////////////////////// */
-/* Footer */
-.icon-style {
-  size: 50px;
+/* Contact */
+#contact {
+  padding-left: 2px;
 }
 
-a:active .url-links {
-  color: #eeeeee;
+.contact-text {
+  font-size: 26px;
+}
+
+.icon-style {
+  font-size: 26px;
 }
 
 /* /////////////////////////////////////// */

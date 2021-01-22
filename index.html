@@ -18,9 +18,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
 
+    <script src="cardData.js" charset="utf-8"></script>
     <title>Emanuel's Portfolio</title>
   </head>
-  <body class="overflow-auto text-left">
+  <body class="overflow-auto text-left body_style">
 
     <!-- Nav Bar -->
     <div class="container-fluid">
@@ -61,7 +62,7 @@
         <!-- Introduction -->
         <div class="container-fluid">
           <p class="intro-head">Hello,<br>I'm Emanuel a Developer</p>
-          <p class="intro-body">Currently, I'm a developer working for the Techrangers. My work focuses on front end design and development. As you keep going through the site, you will see some of my skills, projects and goals.</p>
+          <p class="intro-body">Currently, I'm a developer working for the Techrangers. My work focuses on front end design and development. As you keep going through the site, you will see some of my skills, projects, and goals.</p>
         </div>
 
         <!-- Goals -->
@@ -70,9 +71,9 @@
             <h1 class="title-heads">Goals :</h1>
               <div class="goal_layout">
                 <ol>
-                  <li class="goal col-lg-4"></li>
-                  <li class="goal col-lg-4"></li>
-                  <li class="goal col-lg-4"></li>
+                  <li class="goal"></li>
+                  <li class="goal"></li>
+                  <li class="goal"></li>
                 </ol>
               </div>
             </div>
@@ -82,14 +83,18 @@
         <section id="contact">
           <div class="container-fluid">
             <h1 class="title-heads">Contact :</h1>
-            <div class="row">
-              <div class="col-lg-3 col-md-3 col-sm-3  col-3 offset-lg-2 offset-lg-2 offset-md-2 offset-sm-2 offset-2">
-                <i class="social-icon fab fa-linkedin icon-style" ></i>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 col-4 offset-lg-1 offset-lg-1 offset-md-1 offset-sm-1 offset-1">
-                <a href="https://techrangers.cdl.ucf.edu/" style="color: #eeeeee;">TechRangers</a>
-              </div>
-            </div>
+
+            <!-- Contact 1 -->
+            <span class="p">
+              <a class="contact-text" href="https://www.linkedin.com/in/emanuel-cortes-940a05111/" style="color: #eeeeee;">
+                <i class="fab fa-linkedin icon-style" ></i>
+                LinkedIn
+              </a>
+            </span>
+            <!-- Contact 2 -->
+            <span>
+              <a class="contact-text" href="https://techrangers.cdl.ucf.edu/" style="color: #eeeeee;">TechRangers</a>
+            </span>
           </div>
         </section>
         <br>
@@ -136,11 +141,11 @@
         <section id="projects">
           <div class="container-fluid">
             <h2 class="text-left title-heads">Projects :</h2><br>
-            <div class="card-deck item-cente row">
+            <div class="card-deck item-cente row align-items-stretch">
 
               <!-- item 1 -->
               <div class="col-lg-6 col-sm-6 mb-4">
-                <div class="card card-stile shadow">
+                <div class="card card-stile">
                   <img src="" class="card-img-top project_img" alt="">
                   <div class="card-body">
                     <h5 class="card-title text-center project_name"></h5>
@@ -156,7 +161,7 @@
 
               <!-- item 2 -->
               <div class="col-lg-6 col-sm-6 mb-4">
-                <div class="card card-stile shadow">
+                <div class="card card-stile">
                   <img src="" class="card-img-top project_img" alt="">
                   <div class="card-body">
                     <h5 class="card-title text-center project_name"></h5>
@@ -176,8 +181,7 @@
       </div>
     </div>
 
-    <!-- breakpoint to separe cards.  -->
-    <!-- card flexbox css  -->
+
     <!-- JQuerry -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="index.js" charset="utf-8"></script>
