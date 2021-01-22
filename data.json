@@ -21,7 +21,7 @@
   "projects": [
     {
       "project_img": "images/UCFBox_Edit_Resolution.png",
-      "project_img_alt": "Image that represents the project",
+      "project_img_alt": "UCFBox Image",
       "project_name": "UCFBox",
       "project_body": "A mobile app similar to the JackBox experience. Players can create a game room, invite friends, or join a friend's room. A max of 8 players can go against each other for who can make the silliest answers. The app developed using Flutter with Dart and playable on both iOS and Android.",
       "project_url": "https://github.com/emsonn/ucfbox"
@@ -29,7 +29,7 @@
 
     {
       "project_img": "images/FlashChat_Edit_Resolution.png",
-      "project_img_alt": "Image that represents the project",
+      "project_img_alt": "Flash Chat Image",
       "project_name": "Flash Chat_",
       "project_body": "A mobile app similar to chatting apps like WhatsApp. Users can join a friend's chat rooms or create their own. Google authentication API checks for the legitimacy of every email. The project was develop using Flutter with Dart and is usable on both iOS and Android.",
       "project_url": "https://github.com/ECLKnight/flashCard"

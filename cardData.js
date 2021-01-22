@@ -37,7 +37,3 @@ fetch('data.json').then(response => response.json()).then(data => {
   }
 
 });
-
-$('.card').on('click', function () {
-  $(this.getElementsByClassName('card_lower_body')[0]).slideToggle();
-})
